@@ -1,0 +1,38 @@
+<head>
+  <title>TodoApp</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Ubuntu&family=Ysabeau:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<script src="onclickFetch.js"></script>
+
+<body>
+
+  <div id="container">
+    <h1>Todo List</h1>
+    <form>
+      <div class="form-container">
+        <!-- <div class="title-desc"></div> -->
+        <div class="td">
+          <label >Add Title:</label>
+          <input  type="text" id="title" placeholder="Enter Title"> </input>
+        </div>
+        <div class="td">
+          <label>Description:</label>
+          <input id="description" type="text" placeholder="Description"></input>
+        </div>
+      </div>
+      <div>
+        <button class="add-todo" onclick="onPress()">Add Todo</button>
+      </div>
+      
+
+    </form>
+    <table id="mainArea">
+      
+    </table>
+
+  </div>
+</body>

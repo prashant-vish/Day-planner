@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 600px;
+  background-image: url(images/background3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin-top: 40px;
+  width: 100%;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 5px 4px 2px rgb(96, 94, 94);
+  text-align: center;
+}
+
+form {
+  width: 80vw;
+  margin: auto;
+  margin-top: 40px;
+}
+
+label {
+  font-size: 1.3rem;
+  color: rgb(239, 234, 234);
+  text-shadow: 2px 2px 1px black;
+  padding: 30px;
+}
+button {
+  margin-top: 15px;
+  margin-bottom: 0;
+  width: 120px;
+  height: 2rem;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  margin-left: 25px;
+}
+.add-todo {
+  margin-top: 40px;
+}
+button:hover {
+  color: white;
+  background-color: rgb(61, 54, 54);
+}
+
+input {
+  width: 300px;
+  height: 2rem;
+  color: brown;
+  font-size: 1.2rem;
+  padding: 5px;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  border: white;
+}
+table {
+  width: 60vw;
+  margin: 20px auto;
+
+  /* border: 2px solid red; */
+}
+tr {
+  height: 50px;
+  margin: 2px;
+  /* border: 2px solid red; */
+}
+tr:nth-child(2n + 1) {
+  background-color: aliceblue;
+}
+tr:nth-child(2n) {
+  background-color: rgb(61, 61, 46);
+}
+td {
+  /* border: 2px solid red; */
+  color: gold;
+  text-shadow: 2px 2px 1px black;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+  padding: 20px;
+  padding-left: 100px;
+}
+.title-desc {
+  display: flex;
+}
+.td {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.form-container {
+  display: flex;
+}
+/* #container{
+    border: 2px solid red;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
+
+form{
+    width: 50vw;
+    margin:  auto;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:10% 0% 10% 20%;
+    /* border: 2px solid black; */
+/* }
+
+h1{
+    text-align: center;
+    font-family: 'Courier New';
+    font-weight: bolder;
+    font-size: 3rem;
+    color: white;
+}
+
+label{
+    color: white;
+    font-size: 1.2rem;
+    /* margin: 10px; */
+/* padding:10px; */
+/* line-height: 2rem;
+} */
+
+/* #mainArea{
+    width: 50vw;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:10% 0% 10% 20%;
+    /* height: 20vh; */
+/* } */
+/* 
+input{
+    width: 300px;
+    height: 2rem;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background-color: rgb(210, 242, 242);
+    color: rgb(110, 99, 252);
+    border-radius: 5px; 
+} */
